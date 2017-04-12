@@ -1,0 +1,41 @@
+{% load static %}
+<head>
+	<title> Pokeoz ! </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{% static "materialize/css/materialize.min.css" %}">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+	<link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+	<script type="text/javascript" src="{% static "js/jquery.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/jquery.tinyMap-3.4.5.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "materialize/js/materialize.min.js" %}"></script>
+</head>
+<body>
+	<div class="map" style="min-height:100%; min-width:100%"></div>
+	<div class="valign-wrapper teal center-align loading">
+		<div class="valign">
+			<div class="loaders">
+				<ol>
+				    <li>
+				      <div class="loftloader-wrapper pl-square">
+				        <img class="logo" src="{% static "images/tenoz.png" %}">
+				        <div class="loader white-text noto">
+				          <span></span>
+				        </div>
+				      </div>
+				    </li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="overlay-markercontrol" ondragstart="$(this).removeClass('markercontrol-blur').addClass('markercontrol-hover');"><div class="card-panel">
+		<p><input type="checkbox" onclick="triggerMarker(this,'S')" id="rare_S" checked="checked" /><label for="rare_S">稀有度 S</label></p>
+		<p><input type="checkbox" onclick="triggerMarker(this,'A')" id="rare_A" checked="checked" /><label for="rare_A">稀有度 A</label></p>
+		<p><input type="checkbox" onclick="triggerMarker(this,'B')" id="rare_B" checked="checked" /><label for="rare_B">稀有度 B</label></p>
+		<p><input type="checkbox" onclick="triggerMarker(this,'C')" id="rare_C" checked="checked" /><label for="rare_C">稀有度 C</label></p>
+	</div></div>
+	<script type="text/javascript" src="{% static "js/pokemon.js" %}"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-62255162-4', 'auto');ga('send', 'pageview');
+    </script>
+</body>

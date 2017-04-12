@@ -1,0 +1,39 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      node /usr/local/bin/firebase login
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v0.10.25
+[debug] Time:         Fri Oct 28 2016 09:01:47 GMT+0000 (UTC)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] URL have been removed
+[info] 
+[info] Waiting for authentication...
+[debug] ----------------------------------------------------------------------
+[debug] Command:      node /usr/local/bin/firebase login
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v0.10.25
+[debug] Time:         Fri Oct 28 2016 09:04:06 GMT+0000 (UTC)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] URL have been removed
+[info] 
+[info] Waiting for authentication...
+[debug] ----------------------------------------------------------------------
+[debug] Command:      node /usr/local/bin/firebase login
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v0.10.25
+[debug] Time:         Fri Oct 28 2016 09:04:20 GMT+0000 (UTC)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] URL have been removed
+[info] 
+[info] Waiting for authentication...
